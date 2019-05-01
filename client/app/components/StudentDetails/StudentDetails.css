@@ -1,0 +1,110 @@
+
+
+.student-detail-main-frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.student-detail-frame {
+  font-family: monospace;
+  width: 20%;
+  height: 80%;;
+  border: none 1px;
+}
+.student-academic-detail-frame {
+  width: 75%;
+  height: 80%;
+  margin-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.student-detail-body thead {
+  background-color: #24a7ad;
+  color: white;
+}
+
+.student-academic-detail-frame thead {
+  background-color: #24a7ad;
+  color: white;
+}
+
+.lab-detail-table {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.student-result-card {
+  width: 250px;
+  height: 250px;
+  border: solid 1px blue;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border: none 1px;
+  box-shadow: 0 1.5px 5px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.55);
+}
+
+.student-result-card-header {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.student-result-card-body {
+  line-height: 0rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.student-detail-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.student-detail-body {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: black;
+  padding: 1rem;
+}
+
+.student-result-card-attendance {
+  text-align: center;
+}
+
+table tbody
+{
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+  .student-detail-frame {
+    width: 100%;
+    height: 70%;
+  }
+  .student-academic-detail-frame {
+    width: 100%;
+    height: 90%;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .student-result-card {
+
+  }
+}

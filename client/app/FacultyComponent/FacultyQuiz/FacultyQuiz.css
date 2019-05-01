@@ -1,0 +1,130 @@
+.FacultyQuiz-main-frame {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.FacultyQuiz-header-frame {
+  padding: 10px;
+}
+
+.FacultyQuiz-section-name {
+  display: flex;
+  justify-content: center;
+}
+
+.FacultyQuiz-more-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.FacultyQuiz-more-button .quiz-btn {
+  color: white;
+}
+
+.FacultyQuiz-body-frame {
+}
+
+
+
+.FacultyNewQuiz-header-frame {
+  position: relative;
+  left: 42%;
+}
+
+.FacultyNewQuiz-main-frame .New-Question-frame {
+  margin: 0 auto;
+  position: relative;
+  left: 31%;
+}
+
+.FacultyNewQuiz-main-frame select {
+  width: 30%;
+  margin: 15px;
+}
+
+
+.New-Question-frame Form {
+  width: 50%;
+}
+
+.New-Question-frame Form div {
+  margin: 10px;
+  margin-left: 54px;
+}
+
+.New-Question-frame .New-Quiz-Frame-btn {
+  position: relative;
+  left: 150px;
+}
+
+.FacultySetVisibility-main-frame {
+  padding: 10px;
+}
+
+.FacultySetVisibility-body-frame {
+  width: 70%;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.FacultySetVisibleOneCard-frame {
+  border-radius: 4px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+  background: #333333;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.FacultySetVisibleOneCard-frame div {
+  text-align: center;
+}
+
+.FacultySetVisibleOneCard-frame Input {
+  width: 120px;
+}
+
+.FacultyCheckResults-main-frame {
+  list-style-type: none;
+}
+
+.FacultyCheckResultOne-main-frame {
+  border: 1px solid blue;
+  border-radius: 4px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.FacultyCheckResultOne-flex-frame {
+  display: flex;
+}
+
+.FacultyCheckResultOne-left-frame {
+  width: 50%;
+  text-align: center;
+  padding: 10px
+}
+
+.FacultyCheckResultOne-right-frame {
+  width: 50%;
+  padding: 10px;
+}
+
+.FacultySetVisibleOneCard-frame Button {
+  position: relative;
+  left: 10px;
+}

@@ -1,0 +1,93 @@
+.FeeDepartmentUpdateFee-main-frame {
+  height: 100vh;
+}
+
+.FeeDepartmentUpdateMany-main-frame {
+}
+
+.FeeDepartmentUpdateMany-header-frame {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.FeeDepartmentUpdateMany-header-frame select {
+  width: 18%;
+  margin-right: 40px;
+}
+
+.FeeDepartmentUpdateMany-body-frame {
+}
+
+.FeeDepartmentUpdateMany-body-bottom-frame {
+  width: 70%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  height: 500px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.FeeDepartmentUpdateMany-body-bottom-frame thead {
+  background-color: #009999;
+  color: white;
+}
+
+.FeeDepartmentUpdateMany-body-top-frame {
+  display: flex;
+  justify-content: center;
+}
+
+
+.FeeDepartmentUpdateMany-body-top-frame input[type="text"] {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.FeeDepartmentUpdateMany-body-top-frame Button {
+  margin-right: 20px;
+  width: 50px;
+}
+
+.FeeDepartmentUpdateMany-main-frame .update-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.FeeDepartmentUpdateFeeOne-main-frame {
+  height: 85vh;
+}
+
+.FeeDepartmentUpdateFeeOne-header-frame {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.FeeDepartmentUpdateFeeOne-header-frame input[type="text"] {
+  width: 30%;
+  margin-right: 20px;
+  border: 1px solid  #009999;
+  padding: 20px;
+}
+
+.FeeDepartmentUpdateFeeOne-body-frame {
+  width: 80%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.FeeDepartmentUpdateFeeOne-body-frame thead {
+  background-color: #009999;
+  color: white;
+}
+
+.FeeDepartmentUpdateFeeOne-body-frame input[type="text"] {
+  width: 40%;
+  border-radius: 4px;
+  border: 1px solid dodgerblue;
+  padding:  3px;
+}

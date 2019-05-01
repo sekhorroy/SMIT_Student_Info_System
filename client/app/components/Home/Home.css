@@ -1,0 +1,28 @@
+.home-main-frame {
+  height: 100vh;
+}
+
+.home-body-frame {
+  border: solid 1px red;
+  display: inline;
+}
+
+.Navbar-main-frame {
+  position: relative;
+}
+
+.outer {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  margin-bottom: 100px; 
+}
+
+.footer-content {
+  text-align: center;
+  padding: 50px;
+  color: white;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

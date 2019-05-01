@@ -1,0 +1,18 @@
+.StudentQuiz-main-frame {
+  height: 100%;
+  position: relative;
+  top: 50px;
+  padding: 100px;
+}
+
+.Question-main-frame {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.StudentOneQuiz-main-frame {
+  margin: 20px;
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  border-radius: 4px;
+}

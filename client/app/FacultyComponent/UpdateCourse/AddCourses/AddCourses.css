@@ -1,0 +1,231 @@
+.compulsory-courses-main-frame {
+  width: 40%;
+  height: 50vh;
+
+  position: relative;
+  top: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.compulsory-courses-main-frame input[type="text"]{
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-color: #c4c8ce;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.addcourse-btn {
+  width: 40%;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  position: relative;
+  top: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  outline: none;
+}
+
+.addcourse-btn:hover {
+  background-color: #45a049;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.select-menu-frame {
+  position: relative;
+}
+
+.select-menu-frame select{
+  border: solid 1px grey;
+  border-radius: 10px;
+  outline: none;
+
+}
+
+select-selected {
+  background-color: DodgerBlue;
+}
+
+.Advanced-control-main-frame {
+  margin: 10px;
+}
+
+.limit-elective-main-frame {
+  padding: 10px;
+  border-radius: 4px;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.limit-elective-main-frame select{
+  padding: 0.4rem;
+  width: 10%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-text-elective-count {
+  margin-left: 2rem;
+  display: inline;
+}
+
+.input-text-elective-count input[type="text"]{
+  border-radius: 5px;
+  border: none;
+  width: 25%;
+  padding: 0.4rem;
+}
+
+.input-text-elective-count input[type="submit"]{
+  padding: 0.4rem;
+  margin-left: 2rem;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: DodgerBlue;
+}
+
+.input-text-elective-count input[type="submit"]:hover{
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+.add-course-alert-frame{
+  border: solid 1px blue;
+  display: inline;
+  margin-left: 1rem;
+  width: 100px;
+}
+
+.AssignElective-main-frame {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.AssignElective-main-frame input[type="submit"]{
+  background-color: DodgerBlue;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.AssignElective-main-frame select{
+  outline: none;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 10%;
+}
+
+.AssignElective-main-frame input[disabled] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+  margin-right: 4rem;
+}
+
+.AssignElective-main-frame input[type="submit"]:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+.AssignElective-main-frame .reset-btn {
+  display: inline;
+  margin-left: 200px;
+}
+
+.AssignElective-main-frame .reset-btn input[type="submit"]{
+  background-color: darkred;
+  width: 100px;
+}
+
+.AssignElective-main-frame .reset-btn input[type="submit"]:hover{
+  transition: 1s;
+  background-color: red;
+}
+
+.Advanced-control-main-frame .student-data-table-main-frame {
+  position: relative;
+  top: 2rem;
+  padding: 10px;
+}
+
+.Advanced-control-main-frame .student-data-table-main-frame {
+  position: relative;
+  top: 2rem;
+  padding: 10px;
+  height: 400px;
+}
+
+.Advanced-control-main-frame .student-data-table-main-frame Table{
+  height: 400px;
+}
+
+.Generate-List-Elective-Student-Frame {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  box-shadow: 2px 2px 2px 2px gray;
+  padding: 10px;
+}
+
+.Generate-List-Elective-Student-Frame Select {
+  outline: none;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 10%;
+}
+
+.Generate-List-Elective-Student-Frame input[type="text"] {
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  padding: 0.4rem;
+}
+
+.Generate-List-Elective-Student-Frame input[disabled] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  margin-left: 2px;
+  margin-right: 2rem;
+}
+
+.modal-elective-student-generate-list {
+  padding: 10px;
+  overflow-y: scroll;
+  height: 400px;
+}

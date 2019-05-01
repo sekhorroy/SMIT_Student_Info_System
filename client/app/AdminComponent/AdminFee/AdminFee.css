@@ -1,0 +1,146 @@
+.AdminFee-main-frame {
+  height: 100vh;
+  display: flex;
+}
+
+.AdminFee-SideBar-main-frame {
+  height: 100vh;
+  width: 18%;
+  background-color: #006666;
+  color: white;
+  font-family: sans-serif;
+}
+
+.AdminFee-body-main-frame {
+  height: 100vh;
+  width: 85%;
+}
+
+.Admin-Fee-Side-Bar-Link a {
+  color: white;
+  text-decoration: none;
+}
+
+.Admin-Fee-Side-Bar-Link:hover {
+  background-color: #009999;
+}
+
+.AdminAddFeeStruture-main-frame {
+  height: 100vh;
+}
+
+.AdminAddFeeStruture-header-frame {
+  text-align: center;
+  font-family: monospace;
+  margin: 10px;
+  background-color: #00b3b3;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.AdminAddFeeStruture-body-frame {
+  height: 80%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.AdminAddFeeStruture-body-frame label {
+  margin-top: 20px;
+
+}
+
+.AdminAddFeeStructure-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.rightframe .AdminAddFeeStructure-btn {
+  margin-top: 100px;
+}
+
+.AdminAddFeeStructure-btn Button {
+  width: 30%;
+}
+
+.AdminAddFeeStruture-body-frame .leftframe {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+.AdminAddFeeStruture-body-frame .leftframe .add-frame-header {
+  text-align: center;
+  background-color: #009999;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.AdminAddFeeStruture-body-frame .rightframe .remove-frame-header {
+  text-align: center;
+  background-color: #009999;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.AdminAddFeeStruture-body-frame .rightframe {
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+}
+
+.AdminUpdateFeeStructure-main-frame {
+  height: 100vh;
+  font-family: monospace;
+}
+
+.AdminUpdateFeeStructure-header-frame select {
+  width:200px;
+  margin: 10px;
+}
+
+.AdminUpdateFeeStructure-header-frame {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.AdminUpdateFeeStructure-header-frame Button {
+    padding: 10px;
+}
+
+.AdminUpdateFeeStructure-body-frame {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 60%;
+  overflow-y: scroll;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.AdminUpdateFeeStructure-body-frame thead {
+  background-color: #009999;
+  color: white;
+}
+
+.AdminUpdateFeeStructure-body-frame tbody input[type="text"] {
+  border-radius: 4px;
+  border: 1px solid dodgerblue;
+  padding: 4px;
+}
+
+.AdminUpdateFeeStructure-main-frame-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

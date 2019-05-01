@@ -1,0 +1,115 @@
+.registration-main-frame {
+  position: relative;
+  top: 3.5rem;
+  height: 100vh;
+}
+
+.inner-registration-main-frame {
+  margin: 1rem;
+  height: 70vh;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.inner-registration-main-frame .left-frame {
+  width: 50%;
+  margin-right: 10px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.inner-registration-main-frame .right-frame {
+
+  width: 50%;
+  font-family: monospace;
+  font-size: 1.2rem;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.inner-registration-main-frame .left-frame-body {
+  padding: 1rem;
+}
+
+.inner-registration-main-frame .right-frame-body {
+  padding: 1rem;
+}
+
+.inner-registration-main-frame .left-frame-header {
+  text-align: center;
+  color: white;
+  background-color: #24a7ad;
+  height: 2.5rem;
+}
+
+.buttom-frame {
+  height: 15%;
+  width: 40%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.buttom-frame input {
+  background-color: dodgerblue;
+  color: white;
+  position: relative;
+  left: 1.5rem;
+}
+
+.buttom-frame input:hover {
+  background-color: darkblue;
+  color: white;
+  font-size: 1.5rem;
+  transition: 1s;
+}
+
+.left-frame-header {
+  width: 100%;
+}
+
+.registration-main-frame input, .registration-main-frame select{
+  padding: 12px 20px;
+  width: 80%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-main-frame input[disabled]{
+  background-color: white;
+}
+
+.Section-input-frame {
+  padding: 20px;
+  position: relative;
+  top: 17vh;
+}
+
+.Section-input-frame select{
+  width: 40%;
+
+}
+
+.registration-modal-span-class {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Check-Fee-Detail-main-frame {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Check-Fee-Detail-main-frame .Info-Detail-Frame {
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  font-weight: bolder;
+  color: brown;
+}

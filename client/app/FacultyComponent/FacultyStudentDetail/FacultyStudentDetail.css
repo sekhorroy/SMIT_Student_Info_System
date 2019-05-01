@@ -1,0 +1,59 @@
+.Faculty-Student-Detail-main-frame {
+  height: 100vh;
+}
+
+.Faculty-Student-Detail-main-frame-header-frame {
+  height: 9%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Faculty-Student-Detail-main-frame-header-frame Button {
+  margin-left: 3rem;
+  padding: 8px;
+  width: 20%;
+}
+
+.Faculty-Student-Detail-main-frame-header-frame input[type="text"] {
+  padding: 12px;
+  border: 1px solid #00b3b3;
+  width: 40%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Faculty-Student-Detail-main-frame-body-frame {
+  border-radius: 10px;
+  height: 75%;
+  margin: 20px;
+  display: flex;
+}
+
+.Faculty-Student-Detail-frame {
+  margin: 10px;
+  width: 30%;
+  font-family: monospace;
+}
+
+.Faculty-Academic-Student-Detail-frame {
+  width: 60%;
+  font-family: monospace;
+  margin: 10px;
+}
+
+.Faculty-Academic-Student-Detail-frame th {
+  background-color: #24a7ad;
+  color: white;
+}
+
+.Faculty-Student-Detail-frame th {
+  background-color: #24a7ad;
+  color: white;
+}
+
+.Faculty-Student-Detail-frame td span {
+  font-weight: bold;
+}

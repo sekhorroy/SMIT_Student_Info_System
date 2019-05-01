@@ -1,0 +1,19 @@
+.FeeDepartmentCheckDefaulter-main-frame {
+}
+
+.FeeDepartmentCheckDefaulter-header-frame {
+  margin: 0 auto;
+  position: relative;
+  left: 57px;
+  width: 50%;
+  height: 100px;
+}
+
+.FeeDepartmentCheckDefaulter-header-frame select {
+  width: 30%;
+  margin: 10px;
+}
+
+.FeeDepartmentCheckDefaulter-header-frame Button {
+  width: 20%;
+}

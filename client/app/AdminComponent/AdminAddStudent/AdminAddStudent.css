@@ -1,0 +1,42 @@
+.AdminAddStudentinExcel-main-frame {
+  margin: 10px;
+  padding: 10px;
+}
+.UploadStudentFile-main-frame {
+  margin: 10px;
+}
+
+.upload-file-header-frame {
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #003d99;
+  color: white;
+}
+
+.upload-file-header-frame input[type="submit"] {
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  width: 100px;
+  font-weight: bold;
+}
+
+
+.show-file-body-frame {
+  position: relative;
+  top: 2rem;
+  overflow-y: scroll;
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.UploadStudentFile-main-frame thead {
+  background-color: #009999;
+  color: white;
+}

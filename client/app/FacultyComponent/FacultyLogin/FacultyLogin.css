@@ -1,0 +1,93 @@
+.login-main-frame {
+    border-radius: 15px;
+    width: 30%;
+    height: 80vh;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+.bottom-login-form {
+  border: none 3px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.parent-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #b3b3b3;
+}
+
+.login-main-image1{
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  top: 2rem;
+}
+
+.login-main-image1 img {
+  height: 100px;
+  width: 100px;
+}
+
+
+.top-login-form-container{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.login-main-image1{
+  height: 10px;
+}
+
+.login-form-container {
+  position: relative;
+  padding: 1.5rem;
+  top: 5vh;
+}
+
+.login-text-box-container {
+  display:flex;
+}
+
+.login-container-image {
+  padding: 0.2rem;
+  border-bottom: 1.5px solid blue;
+}
+
+input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1.5px solid blue;
+  width: 100%;
+  padding-left: 5px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  position: relative;
+  top: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  font-family: 'Open Sans', sans-serif;
+}

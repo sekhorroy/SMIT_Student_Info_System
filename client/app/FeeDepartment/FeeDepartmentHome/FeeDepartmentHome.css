@@ -1,0 +1,48 @@
+.feehome-main-frame {
+
+}
+
+.feehome-content-main-frame {
+  display: flex;
+}
+
+.feehome-main-frame .sidenav-main-frame {
+  width: 17%;
+}
+
+
+.feehome-main-frame .sidenav-main-frame .more-options-frame {
+  position: relative;
+  top: 0px;
+}
+
+.feehome-main-frame .fee-home-frame {
+  width: 100%;
+}
+
+.FeeDepartmentCheckFee-body-frame {
+  display: flex;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.FeeDepartmentCheckFee-body-frame span {
+  font-weight: bold;
+}
+
+
+.FeeDepartmentCheckFee-studentdetail-frame {
+  width: 25%;
+  margin: 10px;
+}
+
+.FeeDepartmentCheckFee-feedetail-frame {
+  width: 70%;
+  height: 80%;
+  margin: 10px;
+}
+
+.FeeDepartmentCheckFee-body-frame thead {
+  background-color: #009999;
+  color: white;
+}

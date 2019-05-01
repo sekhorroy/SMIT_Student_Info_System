@@ -1,0 +1,101 @@
+.student-feepayment-main-frame {
+  width: 100%;
+  display: block;
+  background-color: white;
+  height: 100vh;
+  margin-top: 3.5rem;
+  display: flex;
+}
+
+.student-feepayment-body-frame {
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  margin: 20px;
+}
+
+.student-feepayment-body-frame {
+}
+
+.FeePaymentModule-main-frame {
+  height: 79.5vh;
+  font-family: monospace;
+}
+
+.FeePaymentModule-header-frame {
+  text-align: center;
+  background-color: #008fb3;
+  color: white;
+  padding: 10px;
+  height: 10%;
+}
+
+.FeePaymentModule-body-frame {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+
+.FeePaymentModule-body-left-frame {
+  width: 50%;
+}
+
+.FeePaymentModule-body-right-frame {
+  width: 50%;
+}
+
+.FeePaymentModule-body-frame .FeePayment-Card {
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  border-radius: 4px;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+
+.FeePaymentModule-body-frame .FeePayment-Card span {
+  font-weight: bold;
+}
+
+
+.FeePayment-Card-hide {
+  display: none;
+}
+
+.FeePayment-Card-Total {
+  background-color: #ff8080;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.FeePaymentModule-btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 9rem;
+  top: 2rem;
+}
+
+.FeePaymentModule-check .checkbox-color-frame {
+  position: relative;
+  right: 9rem;
+  top: 2rem;
+}
+
+.FeePaymentModule-check {
+  display: flex;
+  justify-content: center;
+}
+
+.FeePaymentModule-btn Button {
+  width: 30%;
+}

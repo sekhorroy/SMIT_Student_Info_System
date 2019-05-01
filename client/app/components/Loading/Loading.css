@@ -1,0 +1,10 @@
+.loading-page {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.loading-page img {
+  position: relative;
+  top: 30vh;
+}

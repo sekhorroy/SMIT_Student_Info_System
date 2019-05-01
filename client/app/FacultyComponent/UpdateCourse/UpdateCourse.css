@@ -1,0 +1,27 @@
+.addcourse-main-frame {
+  border-bottom: solid 0.4px #d9dce2;
+  border-left: solid 0.4px #d9dce2;
+  border-right: solid 0.4px #d9dce2;
+  border-radius: 5px;
+  height: 80vh;
+  margin: 10px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.viewcourse-main-frame {
+  border-bottom: solid 0.4px #d9dce2;
+  border-left: solid 0.4px #d9dce2;
+  border-right: solid 0.4px #d9dce2;
+  border-radius: 5px;
+  height: auto;
+  margin: 10px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.update-course-main-frame {
+  margin: 10px;
+}

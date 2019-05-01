@@ -1,0 +1,65 @@
+.sidenav-main-frame {
+  width: 20%;
+  height: 100vh;
+  background-color:	white;
+  display: block;
+  border-right: 1px solid orange;
+}
+
+.search-main-frame {
+  height: 50%;
+  /*background-color: #264d73;*/
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 5px;
+}
+
+.more-options-frame {
+  position: relative;
+  top: 10%;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.more-options-frame-btn {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.more-options-frame-btn a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.more-options-frame-btn:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.more-options-frame-btn a:hover {
+  color: white;
+}
+
+hr {
+  margin: 0;
+}
+
+.search-main-frame {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-family: monospace;
+}
+
+.search-main-frame select {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.search-main-frame Button {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}

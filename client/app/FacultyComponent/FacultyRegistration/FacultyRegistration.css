@@ -1,0 +1,77 @@
+.faculty-registration-main-frame {
+  display: flex;
+  height: 100%;
+}
+
+.faculty-registration-input-frame {
+  width: 40%;
+}
+
+.faculty-registration-display-frame {
+  width: 60%;
+}
+
+.faculty-select-option-frame {
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  margin: 2rem;
+  box-shadow: 2px 2px 2px 2px gray;
+  height: 80vh;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.faculty-registration-display-table-header {
+  font-family: monospace;
+}
+
+.faculty-select-option-frame select {
+  margin: 10px;
+  width: 95%;
+}
+
+.faculty-select-option-frame input[type="text"] {
+  margin: 10px;
+  width: 95%;
+}
+
+.faculty-select-option-frame Button{
+  width: 200px;
+}
+
+.faculty-select-option-frame label {
+  margin: 0;
+}
+
+.faculty-registration-btn {
+  margin-top: 40px;
+  margin-left: 28%;
+  margin-bottom: 40px;
+}
+
+.faculty-registration-display-table-header {
+
+  background-color: DodgerBlue;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.FacultyRegistrationView-table Table {
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.faculty-registration-display-table {
+  margin-top: 2rem;
+  margin-left: 10px;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+}

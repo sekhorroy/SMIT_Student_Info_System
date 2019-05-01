@@ -1,0 +1,10 @@
+.faculty-view-course-main-frame {
+  padding: 10px;
+  margin: 10px;
+}
+
+tbody {
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

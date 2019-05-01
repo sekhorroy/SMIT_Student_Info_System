@@ -1,0 +1,36 @@
+.facultyhome-main-frame {
+  width: 100%;
+  height: 100vh;
+}
+.facultyhome-content-main-frame {
+  height: 100vh;
+  display: flex;
+}
+
+.faculty-home-frame {
+  width: 100%;
+  height: 100%;
+}
+
+.smit-logo {
+
+}
+
+
+
+.inner {
+display: block;
+margin-left: 40%;
+margin-right: auto;
+width: 50%;
+}
+
+.inner img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+width: 200px;
+}
+
+.registration-btn {
+  color: black;
+}

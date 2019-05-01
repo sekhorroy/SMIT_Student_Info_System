@@ -1,0 +1,98 @@
+.AdminStudent-main-frame {
+  height: 100vh;
+  display: flex;
+}
+
+.AdminStudent-SideBar-main-frame {
+  height: 100vh;
+  width: 18%;
+  background-color: #006666;
+  color: white;
+  font-family: sans-serif;
+}
+
+.AdminStudent-body-main-frame {
+  height: 100vh;
+  width: 85%;
+}
+
+.Admin-Student-Side-Bar-Link a {
+  color: white;
+  text-decoration: none;
+}
+
+.Admin-Student-Side-Bar-Link:hover {
+  background-color: #009999;
+}
+
+.AdminAddStudentManual-main-frame {
+  padding: 10px;
+}
+
+.AdminAddStudentManual-header-frame {
+  text-align: center;
+  font-family: monospace;
+}
+
+.AdminAddStudentManual-body-frame {
+  width: 50%;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.AdminAddStudentManual-body-frame label {
+  margin-top: 10px;
+}
+
+.AdminAddStudentManual-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.AdminUpdateStudent-header-frame {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.AdminUpdateStudent-header-frame input[type="text"]{
+  padding: 12px;
+  border: 1px solid #00b3b3;
+  width: 40%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.AdminUpdateStudent-header-frame Button {
+  margin-left: 3rem;
+  padding: 8px;
+  width: 20%;
+}
+
+.AdminFacultyViewAll-main-frame {
+  height: 100vh;
+}
+
+.AdminFacultyViewAll-header-frame select {
+  width: 50%;
+  margin-right: 100px;
+  border: 1px solid #009999;
+}
+
+.AdminFacultyViewAll-header-frame Button {
+  width: 200px;
+}
+
+.AdminFacultyViewAll-header-frame {
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.AdminFacultyViewAll-body-frame {
+  
+}
