@@ -10,18 +10,12 @@ module.exports = merge(commonConfig, {
   output: {
     filename: 'js/[name].[hash].js',
     chunkFilename: '[id].[hash].chunk.js'
-  },
+  }
 
-  plugins: [
-  new UglifyJsPlugin({
-    uglifyOptions: {
-      warnings: false,
-      ie8: false,
-    output: {
-      comments: false
-      }
-    }
-}),
-    "@babel/plugin-proposal-class-properties"
-  ]
+  
 });
+module.exports = {
+  optimization: {
+    minimizer: [new UglifyJsPlugin()],
+  },
+};
