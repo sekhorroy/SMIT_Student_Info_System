@@ -22,6 +22,6 @@ module.exports = merge(commonConfig, {
         comments: false
       }
     }),
-    "@babel/plugin-proposal-class-properties'
+    "@babel/plugin-proposal-class-properties"
   ]
 });
