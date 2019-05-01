@@ -19,13 +19,15 @@ module.exports = merge(commonConfig, {
 module.exports = {
   optimization: {
     minimizer: [new UglifyJsPlugin({
-      compressor: {
+      uglifyOptions:{
+        compressor: {
         warnings: false,
         screw_ie8: true
       },
       output: {
         comments: false
-      }
+      }},
+      
 })],
   },
 };
