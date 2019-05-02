@@ -1,28 +1,8 @@
-const webpack = require('webpack');
-const merge = require('webpack-merge');
+// Copy this file as config.js in the same folder, with the proper database connection URI.
 
-const commonConfig = require('./webpack.common');
+module.exports = {
+  db: 'mongodb://username:password@url:port/db ',
+  db_dev: 'mongodb://localhost:27017/student',
+};
 
-module.exports = merge(commonConfig, {
-  devtool: 'eval-source-map',
-
-  mode: 'development',
-
-  entry: {
-    'app': [
-      'webpack-hot-middleware/client?reload=true'
-    ]
-  },
-
-  output: {
-    filename: 'js/[name].js',
-    chunkFilename: '[id].chunk.js'
-  },
-
-  devServer: {
-    contentBase: './client/public',
-    historyApiFallback: true,
-    stats: 'minimal' // none (or false), errors-only, minimal, normal (or true) and verbose
-  },
-
-});
+//db: 'mongodb://username:password@url:port/db'

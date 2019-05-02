@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 
 const FeeDepartmentSchema = new mongoose.Schema({
   empId: {
